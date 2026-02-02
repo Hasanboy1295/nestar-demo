@@ -4,43 +4,6 @@ import Link from "next/link";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 
-// const Top = () => {
-//   return (
-//     <Stack className={"navbar"}>
-//       <Stack className={"navbar-main"}>
-//         <Stack className={"container"}>
-//           <Box component={"div"} className={"logo-box"}>
-//             <Link href={"/"}>
-//               <img src="/img/logo/logoWhite.svg" alt="" />
-//             </Link>
-//           </Box>
-
-//           <Box component={"div"} className={"router-box"}>
-
-//           </Box> 
-
-//           <Box component={"div"} className={"user-box"}>
-//             <>
-//               <div className={"login-user"}>
-//                 <img src={"/img/profile/defaultUser.svg"} alt="" />
-//               </div>
-
-//               <Menu id="basic-menu" sx={{ mt: "5px" }} open={false}>
-//                 <MenuItem>
-//                   <Logout
-//                     fontSize="small"
-//                     style={{ color: "blue", marginRight: "10px" }}
-//                   />
-//                   Logout
-//                 </MenuItem>
-//               </Menu>
-//             </>
-//           </Box>
-//         </Stack>
-//       </Stack>
-//     </Stack>
-//   );
-// };
 
 
 const Top = () => {
