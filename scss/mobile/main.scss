@@ -1,0 +1,46 @@
+#mobile-wrap {
+  width: 100%;
+  
+  #top {
+    .navbar {
+      width: 100%;
+      padding: 15px 20px;
+      background: #fff;
+      
+      .router-box {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        
+        a {
+          text-decoration: none;
+          
+          div {
+            color: #181a20;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  #footer {
+    .footer-container {
+      height: 150px;
+      background: #181a20;
+      color: white;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
